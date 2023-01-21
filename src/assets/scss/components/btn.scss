@@ -1,0 +1,28 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  color: inherit;
+  font: inherit;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  appearance: none;
+  padding: 1rem;
+  border-radius: 8px;
+
+  * {
+    fill: inherit;
+  }
+
+  &--primary {
+    background-color: var(--primary);
+    color: #fff;
+  }
+
+  &--secondary {
+    background-color: var(--secondary);
+    color: var(--text-secondary);
+  }
+}

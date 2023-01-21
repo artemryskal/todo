@@ -1,0 +1,23 @@
+@use '@/assets/scss/components/input';
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  &__fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+  }
+
+  &__label--row {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

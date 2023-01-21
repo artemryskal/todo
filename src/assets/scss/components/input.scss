@@ -1,0 +1,21 @@
+.input {
+  padding: 0.5rem 1rem;
+  font: inherit;
+  background: none;
+  margin-top: 0.5rem;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+
+  &:focus,
+  &:active {
+    outline: 2px solid var(--outline-color);
+  }
+
+  &--submit {
+    margin-top: 0.5rem;
+  }
+}
+
+.checkbox {
+  accent-color: var(--primary);
+}

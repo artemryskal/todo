@@ -1,0 +1,30 @@
+@use 'base/reset';
+@use 'base/variables';
+@use 'base/typography';
+
+@use 'components/btn';
+
+.page,
+.page__body,
+.app {
+  height: 100%;
+}
+
+.container {
+  max-width: calc(1280px + 3rem);
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
